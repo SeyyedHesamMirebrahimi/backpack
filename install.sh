@@ -27,7 +27,7 @@ info() { echo -e "${WHITE}[*]${NC} $*"; }
 warn() { echo -e "${GRAY}[!]${NC} $*"; }
 err()  { echo -e "${RED}[x]${NC} $*" >&2; }
 
-REPO="dr-hoseyn/BackPack"
+REPO="SeyyedHesamMirebrahimi/BackPack"
 BIN_PATH="/usr/local/bin/backpack"
 INSTALL_DIR="/root/BackPack"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-/tmp}")" 2>/dev/null && pwd || echo /tmp)"
